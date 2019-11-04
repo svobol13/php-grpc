@@ -1,5 +1,5 @@
 # php-grpc
-Docker image for simple building php grpc clients.
+Docker image for simple building php grpc clients. Available in dockerhub https://hub.docker.com/r/svobol13/php-grpc.
 
 # Example
 1. Go to folder with `service.proto` file
