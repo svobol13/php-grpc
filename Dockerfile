@@ -1,5 +1,6 @@
 ARG PHP_VERSION=7.2.15
 ARG GRPC_VERSION=1.20.0
+# TODO remove dependency on grpc/php which is obsolete
 FROM grpc/php AS grpc
 FROM php:${PHP_VERSION}-cli-stretch AS build
 
